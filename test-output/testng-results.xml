@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-28T13:30:40 IST" name="Default suite" finished-at="2023-12-28T13:30:57 IST" duration-ms="16833">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T13:30:40 IST" name="Default test" finished-at="2023-12-28T13:30:57 IST" duration-ms="16833">
+      <class name="jenkins_concept.jenkins.test.JenkinsDemo">
+        <test-method signature="test(java.lang.reflect.Method)[pri:0, instance:jenkins_concept.jenkins.test.JenkinsDemo@2a798d51]" started-at="2023-12-28T13:30:40 IST" name="test" finished-at="2023-12-28T13:30:57 IST" duration-ms="16752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void jenkins_concept.jenkins.test.JenkinsDemo.test(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- jenkins_concept.jenkins.test.JenkinsDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
