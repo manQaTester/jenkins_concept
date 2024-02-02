@@ -20,12 +20,9 @@ public class JenkinsDemo {
 	
 	@Test
 	public void test(Method mt) {
-		
-		
 		ExtentReports extent = new ExtentReports();
 		ExtentSparkReporter spark = new ExtentSparkReporter("ExtentReports//VtigerExtentReport.html");
 		extent.attachReporter(spark);
-		
 		ExtentTest extTest=extent.createTest(mt.getName());// fetch method name(testcase Name)
 
 		extTest.log(Status.INFO, "Test has been started");
